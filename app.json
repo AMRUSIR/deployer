@@ -1,24 +1,45 @@
 {
-    "name": "Abu Ser ",
-    "description": "Abu Ser is the Modified Version of WhatsAsena, Made By Ajx-Abu with Baileys.",
-    "logo": "https://i.ibb.co/p1KV95t/20220128-201826.jpg",
-    "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
-    "repository": "https://github.com/Ajx-Abu/Abu_ser",
-    "website":   "https://github.com/Ajx-Abu/Abu_ser",
-    "success_url": "https://github.com/Ajx-Abu/Abu_ser",
+    "name": "Sana-Mwol",
+    "description": "Sana is the Modified Version of WhatsAsena, Made By Ajx-Abu with Baileys.",
+    "logo": "https://i.imgur.com/CzN1K18.jpg",
+    "keywords": ["whatsapp", "userbot", "Sana", "WhatsAsena", "mwol", "bot", "ai"],
+    "repository": "https://github.com/Ajx-Abu/Sana-Mwol",
+    "website":   "https://github.com/Ajx-Abu/Sana-Mwol",
+    "success_url": "https://github.com/Ajx-Abu/Sana-Mwol",
     "stack": "container",
     "env": {
-        "ABUSER_CODE": {
+        "SANA_CODE": {
             "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
+        },
+         "BROADCAST_NAME": {
+            "description": "sana forward ordertext",
+            "required": false,
+            "value": "✰sᴀɴᴀ ᴍᴡᴏʟ✰"
+        },
+        "ALL_IMG": {
+            "description": "Change This Image Link If You Want To Change Audio Bc Thumbnail",
+            "required": true,
+            "value": "https://i.imgur.com/TR4CYrZ.jpg"
+        },
+        "V_HEADER": {
+            "description": "Set the Header name logo",
+            "required": false,
+            "value": "✰sᴀɴᴀ ᴍᴡᴏʟ✰"
+        },
+        "VERIFIED": {
+            "description": "Give with number jid",
+            "required": false,
+            "value": "0@s.whatsapp.net"
+        },
+        "DIALOGUE": {
+            "description": "set the Dialouge",
+            "required": true,
+            "value": "Sana-Mwol"
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
-        },
-         "YT_PASSWORD": {
-            "description": "Password is ABU type it in here. Password ABU എന്ന് തന്നെ അടിക്കുക അല്ലേൽ ബോട്ട് error aavum",
-            "required": true
         },
         "LANGUAGE": {
             "description": "Bot language.English => en",
@@ -32,33 +53,23 @@
         },
         "OWNER_NAME": {
             "description": "Fill your name in here. it will show your name in .owner command reply",
-            "required": true,
-            "value": "ABU💖"
+            "required": false,
+            "value": "💖Abu ser💖"
         },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
-            "required": false,
+            "required": true,
             "value": "true"
-        },        
-        "V_HEADER": {
-            "description": "Set the Header name logo",
-            "required": true,
-            "value": "YOUR HEADER HERE"
         },
-        "VERIFIED": {
-            "description": "Give with number jid",
+        "LG_LOGO": {
+            "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "0@s.whatsapp.net"
+            "value": "https://i.imgur.com/yQWf4ty.jpeg"
         },
-        "ALL_IMG": {
-            "description": "Set the logo",
+        "LOGO_NAME": {
+            "description": "Set the logo list name",
             "required": true,
-            "value": "https://i.imgur.com/t9pFDc7.jpg"
-        },
-        "DIALOGUE": {
-            "description": "set the Dialouge",
-            "required": true,
-            "value": "Muthe i love you"
+            "value": "♡︎𝙸𝚃𝚉 𝙼𝙴 𝚂𝙰𝙽𝙰 𝙼𝚆𝙾𝙻♡︎"
         },
         "INBO_BLOCK": {
             "description": "Inbox Blocking System. True koduthal ningalude pml vann chila bad words upoayogikunnavare bot block aakum block aakendengil false kodukuka",
@@ -69,16 +80,6 @@
             "description": "You can select welcome as gif/pp",
             "required": false,
             "value": "pp"
-        },
-        "LG_LOGO": {
-            "description": "LOGO list message image link(https://telegra.ph/)link.",
-            "required": true,
-            "value": "https://i.imgur.com/t9pFDc7.jpg"
-        },
-        "LOGO_NAME": {
-            "description": "Set the logo list name",
-            "required": true,
-            "value": "ABU SER"
         },
         "WEL_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
@@ -97,13 +98,8 @@
         },
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
-            "required": true,
+            "required": false,
             "value": "false"
-        },
-        "CMD_LIST": {
-            "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
-            "required": true,
-            "value": "ABU/🎗️/💝/✨/📝"
         },
         "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
@@ -125,10 +121,10 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "CHAT_BOT": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+        "TALKING_SANA": {
+            "description": "Turn your account into a talking sana!",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
@@ -142,8 +138,8 @@
         },
         "ALL_CAPTION": {
             "description": "Caption for images and videos generated by pinky bot",
-            "required": false,
-            "value": "ABU SER"
+            "required": true,
+            "value": "Made by 💝Sana Mwol💝"
         },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
@@ -156,13 +152,13 @@
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "Onn Nookeett Podey"
+            "value": "sᴀɴᴀ ᴍᴡᴏʟ ᴠᴀɴɴᴜ ɪɴɪ ᴘᴏᴡᴇʀ ᴀʏɪʀɪᴋᴋᴜᴍ🥂"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
@@ -171,17 +167,17 @@
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
             "description": "Customizable Block Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
             "description": "Customizable Unblock Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "NUMBER": {
@@ -191,16 +187,15 @@
         },
         "DEPLOYER": {
             "description": "enter your name here",
-            "required": false,
-            "value": "ABU"
+            "required": false
         },
         "BOT_NAME": {
             "description": "heading for .list command reply",
-            "required": false,
-            "value": "•━━━━╼⤏ABU SER⤎╾━━━•"
+            "required": true,
+            "value": "ꪶ͢sᴀɴᴀ ᴍᴡᴏʟꫂ⁩🥂"
         },
         "WORK_TYPE": {
-            "description": "Abu Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Sana Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -217,10 +212,15 @@
             "description": "https://remove.bg",
             "required": false
         },
-        "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+        "ALIVE_BUTTON": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "ᴇɴɢᴀɴᴇʏᴜɴᴅ \n sᴀɴᴀ ᴍᴡᴏʟ🌝"
+        },
+        "ALIVE_BUTTON2": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "POWEREESH🤩"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
@@ -239,32 +239,32 @@
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
-            "required": false,
+            "required": true,
             "value": "true"
         }
     },
